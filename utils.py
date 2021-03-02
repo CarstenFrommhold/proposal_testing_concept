@@ -13,7 +13,7 @@ class MyDataHandler:
         self.connect_to_remote()
 
     def get_config_from_json(self):
-        with open("../my_data_versions.json", "r") as config:
+        with open("my_data_versions.json", "r") as config:
             return json.load(config)
 
     def get_version(self, table):

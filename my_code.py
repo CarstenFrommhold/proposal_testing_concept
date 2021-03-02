@@ -1,6 +1,6 @@
 """ This is just some random sample code
 """
-from my_data_handler.utils import MyDataLoader
+from utils import MyDataLoader
 
 DataImporter = MyDataLoader()
 
